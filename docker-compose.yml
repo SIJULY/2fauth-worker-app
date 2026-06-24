@@ -1,0 +1,12 @@
+services:
+  2fauth:
+    build: .
+    image: 2fauth-worker-local
+    container_name: 2fauth-worker
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
