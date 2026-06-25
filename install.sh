@@ -4,7 +4,7 @@ set -e
 # 全局变量
 INSTALL_DIR="/opt/2fa"
 # 已经为您修改为最新的仓库地址
-REPO_URL="https://github.com/SIJULY/2fauth-worker.git"
+REPO_URL="https://github.com/SIJULY/2fauth-worker-app.git"
 
 # 检查命令是否存在
 command_exists() {
