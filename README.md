@@ -41,7 +41,7 @@
 这是最省心的方式，完全不需要自己的服务器，由 Cloudflare 免费为你托管。
 
 #### 1. 一键全自动部署
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/SIJULY/2fauth-worker)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/SIJULY/2fauth-worker-app)
 
 #### 2. 注意事项与授权指引
 *   在部署向导中，你需要授权 Cloudflare 读取该仓库（系统会自动在你的 GitHub 账号下创建一个私有克隆）。
@@ -235,7 +235,7 @@ npm run dev
 ## VPS Docker 一键安装与管理脚本
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/SIJULY/2fauth-worker/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/SIJULY/2fauth-worker-app/main/install.sh)
 ```
 
 安装完成后，请编辑 `/opt/2fa/.env` 配置好你的授权邮箱和 OAuth 密钥，然后运行 `docker compose up -d` 即可。
